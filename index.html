@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>AWO</title>
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <h1 class="text-center">Anders Wiberg Olsen <br/><small>anders@wiberg.tech</small></h1>
+        <hr>
+
+        <div class="col-md-6 col-sm-6 hidden-xs"><br>
+          <p class="grey">// Information</p>
+          <p>
+            <span class="fuschia">&lt;?php</span><br/>
+            <span class="blue"><em>function</em></span> <span class="green">getData</span> (<span class="fuschia">$person</span>){<span class="string-indent">
+              <span class="fuschia">$person</span> = <span class="purple">json_decode</span>(<br/>{<br/>
+                &nbsp;&nbsp;&nbsp;<span class="yellow">"Name"</span>: <span class="yellow">"Anders Wiberg Olsen"</span>,<br/>
+                &nbsp;&nbsp;&nbsp;<span class="yellow">"Occupation"</span>: <span class="yellow"><em>"Softbase A/S</em> as <em>Sysadmin</em>"</span>,<br/>
+                &nbsp;&nbsp;&nbsp;<span class="yellow">"age"</span>: <span class="orange">21</span>,<br/>
+                &nbsp;&nbsp;&nbsp;<span class="yellow">"contactInformation"</span>: [{<br/>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="yellow">"type"</span>: <span class="yellow">"home"</span>,<br/>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="yellow">"number"</span>: <span class="yellow">"(+45) 22 52 87 15"</span>,<br/>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="yellow">"e-mail"</span>: <span class="yellow">"<a href="mailto:anders@wiberg.tech">anders@wiberg.tech</a>"</span><br/>
+                &nbsp;&nbsp;&nbsp;}, {
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="yellow">"type"</span>: <span class="yellow">"office"</span>,<br/>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="yellow">"e-mail"</span>: <span class="yellow">"<a href="mailto:awo@softbase.dk">awo@softbase.dk</a>"</span><br/>
+                &nbsp;&nbsp;&nbsp;}<br/>]}<br/>
+            </span>
+            <br/>
+            <span class="string-indent">);<br/><br/></span>
+            <span class="string-indent"><span class="purple">return</span> <span class="fuschia">$person</span>;</span>
+
+            <span class="fuschia">?></span>
+          </p>
+        </div>
+
+        <div class="col-md-6 col-sm-6"><br>
+          <p class="green">About Me</p>
+          <p class="white">As mentioned, my name is <span class="blue"><em>Anders Wiberg Olsen</em></span>. Currently I am <span class="orange"><em>21</em></span> years old.</p>
+          <p class="white">I am from and live in Denmark, Copenhagen. I have applied for the <em>IT University of Copenhagen</em>, and hope to start september 2016.</p>
+          <hr>
+          <p class="green">Experience</p>
+          <p class="white">I am a self-taught programmer. I started programming when I was about <span class="orange"><em>12</em></span> years old.
+          I started learning <span class="purple"><em>Visual Basic .NET</em></span>. Later I progressed to <span class="purple"><em>C#.NET</em></span>.
+          I started developing computer games in <span class="purple"><em>GameMaker</em></span>, and later <span class="purple"><em>Unity</em></span>.
+          Since then I have progressed to <span class="purple"><em>Unreal Engine</em></span> (<span class="purple"><em>C++</em></span>).</p>
+          <p class="white">Latest I have been working with web-development (mostly <span class="fuschia"><em>PHP</em></span> using <span class="fuschia"><em>Laravel 5</em></span>).</p>
+        </div>
+      </div>
+    </div>
+<br>
+<br>
+<br>
+    <footer class="footer">
+      <div class="container hidden-xs">
+        <div class="row">
+          <!--<br>-->
+          <div class="col-md-4 hidden-sm"><div class="grey"><span class="green">Copyright</span><br> &copy; 2016 by Anders Wiberg Olsen</div></div>
+          <div class="col-md-2 col-sm-3">
+            <div class="green">Links</div>
+            <a href="https://github.com/awo-dev" target="_blank"><i class="fa fa-github white"></i> awo-dev</a><br/>
+            <a href="https://twitter.com/AndersWiberg" target="_blank"><i class="fa fa-twitter white"></i> AndersWiberg</a>
+          </div>
+          <div class="col-md-2 col-sm-3"><br/>
+            <a href="https://linkedin.com/in/anderswolsen" target="_blank"><i class="fa fa-linkedin white"></i> anderswolsen</a>
+            <a href="https://soundcloud.com/anderswolsen" target="_blank" class="hidden-sm"><i class="fa fa-soundcloud white"></i> anderswolsen</a>
+          </div>
+          <div class="col-md-4 col-sm-6"><span class="green">Contact</span><br>
+            <a href="mailto:anders@wiberg.tech"><i class="fa fa-envelope white"></i> anders@wiberg.tech</a><br>
+            <a href="tel:+4522528715"><i class="fa fa-phone white"></i> (+45) 22 52 87 15</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="container visible-xs">
+        <div class="row text-center">
+          <!--<br>-->
+          <!--<div class="grey"><span class="green">Copyright</span><br> &copy; 2016 by Anders Wiberg Olsen</div>-->
+              <br>
+            <p class="green">Contact</p>
+            <a href="mailto:anders@wiberg.tech"><i class="fa fa-envelope white"></i> anders@wiberg.tech</a><br>
+            <a href="tel:+4522528715"><i class="fa fa-phone white"></i> (+45) 22 52 87 15</a>
+        </div>
+      </div>
+    </footer>
+<br><br>
+
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
+</html>
