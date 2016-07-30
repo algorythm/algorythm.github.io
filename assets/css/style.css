@@ -27,13 +27,13 @@
 
 @font-face {
   font-family: 'Conso';
-  src: url("http://http://musicforprogramming.net/css/Conso.woff") format("woff"), url("http://http://musicforprogramming.net/css/Conso-Italic.ttf") format("truetype");
+  src: url("Conso.woff") format("woff"), url("Conso-Italic.ttf") format("truetype");
   font-style: normal;
   font-stretch: normal; }
 
 @font-face {
   font-family: 'Conso';
-  src: url("http://http://musicforprogramming.net/css/Conso-Italic.woff") format("woff"), url("http://http://musicforprogramming.net/css/Conso-Italic.ttf") format("truetype");
+  src: url("Conso-Italic.woff") format("woff"), url("Conso-Italic.ttf") format("truetype");
   font-style: italic;
   font-stretch: normal; }
 
