@@ -51,7 +51,11 @@ body, button, input, select, textarea {
 
 a {
   color: #ec007c;
-  text-decoration: none; }
+  text-decoration: underline; }
+
+a.no-underline {
+  text-decoration: none;
+}
 
 a:hover {
   background-color: #0096c1;
